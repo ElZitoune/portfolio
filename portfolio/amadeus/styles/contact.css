@@ -1,0 +1,46 @@
+#conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#conteneur > img {
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+form > div > input[type="textfield"] {
+    padding-left: 8px;
+    width: 400px;
+    height: 30px;
+}
+
+form > div > input[type="textarea"] {
+    padding-left: 8px;
+    width: 600px;
+    height: 150px;
+    text-align: top;
+}
+
+form > input[type="button"] {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #04BFBF;
+    font-size: 18px;
+    font-family: 'Montserrat-Medium';
+    color: #FFFFFF;
+    cursor: url(hand.cur), pointer;
+}

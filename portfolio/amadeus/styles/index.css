@@ -1,0 +1,62 @@
+#presentation {
+    position: relative;
+    top: 100px;
+    left: 150px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#presentation > h1 {
+    margin: 0;
+    font-size: 80px;
+    font-family: 'Montserrat-ExtraBold';
+    color:#000000;
+}
+
+#presentation > h2 {
+    margin: 0;
+    font-size: 30px;
+    color: #000000;
+}
+
+#presentation > a > .nos-produits {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #344973;
+    font-size: 18px;
+    font-family: 'Montserrat-SemiBold';
+    color: #FFFFFF;
+    cursor: url(hand.cur), pointer;
+}
+
+#boite-qualites {
+    position: relative;
+    top: 100px;
+    left: 500px;
+    display: inline-flex;
+    flex-direction: column;
+    font-size: 28px;
+    font-family: 'Montserrat-Medium';
+    color: #FFFFFF;
+}
+
+#boite-qualites > .qualite {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000000;
+}
+
+#boite-qualites > .qualite > p {
+    margin: 0;
+}
+
+#boite-qualites > .qualite > img {
+    margin-right: 20px;
+    width: 36px;
+    height: 36px;
+}
